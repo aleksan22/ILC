@@ -1,0 +1,1811 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    overflow-x: hidden;
+    position: relative;
+}
+.bg{
+    background-color: #E5E5E5;
+    padding-bottom: 16px;
+}
+.card{
+    background-color: #E5E5E5;
+    border: none;
+    padding-bottom: 72px;
+}
+.card__top-img{
+    padding-top: 34px;
+}
+.card__inner{
+    background: #F4F7FA;
+    border: 1px solid #F4F7FA;
+    border-radius: 30px;
+}
+.header__mobile{
+    background-color: #E5E5E5;
+}
+
+.header__mobile-top{
+    /* display: flex; */
+}
+.header__mobile-logo{
+    align-self: center;
+}
+.header__mobile-menu{
+    border: 1px solid #DEE6EF;
+    background-color: #DEE6EF;
+    border-radius: 7px;
+    outline: none;
+}
+.header__mobile-link{
+    border: 1px solid #2641D1;
+    padding: 15px 21px;
+    background: #2641D1;
+    border-radius: 7px;
+}
+.main{
+    background: url('../img/bg.png') center no-repeat;
+    padding-top: 4.8em;
+    text-align: center;
+}
+.main__title{
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    font-size: 2.4em;
+    line-height: 45px;
+    margin-bottom: 16px;
+}
+.main__text{
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 29px;
+}
+.main__btn{
+    background: #273895;
+    border-radius: 15px;
+    border: 1px solid #273895;
+    outline: none;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 16px;
+}
+.card__top-text{
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 34px;
+}
+.card__center-img{
+    margin-bottom: 16px;
+}
+.card__center-text{
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 34px;
+}
+.card__bottom-img{
+    margin-bottom: 16px;
+}
+.card__bottom-text{
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 34px;
+}
+.personal{
+    background-color: #E5E5E5;
+    padding-bottom: 139px;
+}
+.personal__logo{
+    height: 40px;
+    margin-bottom: 24px;
+}
+.personal__title{
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #303030;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.personal__text{
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #303030;
+    text-align: center;
+}
+
+.personal__items{
+    display: flex;
+}
+.personal__items:nth-child(2){
+    transform: translateY(50px);
+    z-index: 10;
+}
+.personal__card:nth-child(1){
+    transform: translateY(-50px);
+}
+.personal__card{
+    background: #fff;
+    border-radius: 5px;
+}
+.text{
+    font-weight: 400;
+    font-family: 'Gotham Pro';
+    font-size: 10px;
+    line-height: 5px;
+    color: #404040;
+    align-self: center;
+}
+.gradient{
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Gotham Pro';
+    margin-top: 16px;
+
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(180deg, #4614E8, #BCA7FF);
+    text-align: center;
+}
+.size{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: 'Gotham Pro';
+
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(180deg, #4614E8, #BCA7FF);
+}
+.personal__items{
+    position: relative;
+}
+.personal__inner-img-two{
+    position: absolute;
+    bottom: 277px;
+    left: 25px;
+    
+}
+.supports{
+    background: #E5E5E5;
+}
+.supports__title{
+    text-align: center;
+    font-family: "Gotham Pro";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    margin-bottom: 24px;
+}
+.supports__card{
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+}
+.supports__img{
+    margin-bottom: 16px;
+}
+.supports__card-title{
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    font-weight: 700;
+    font-family: 'Gotham Pro';
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+.supports__card-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #303030;
+    font-family: 'Gotham Pro';
+}
+.services{
+    background: #E5E5E5;
+}
+.services__title{
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #303030;
+    font-family: 'Gotham Pro';
+    text-align: center;
+    margin-top: 72px;
+}
+.services__background{
+    background: #34449C;
+    height: 275px;
+    border-radius: 11px;
+    position: relative;
+    margin-bottom: 36px;
+}
+.services__img{
+    margin-top: 50%;
+    margin-bottom: 7px;
+}
+.services__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 32px;
+    color: #fff;
+    font-family: 'Gotham Pro';
+    margin-left: 40%;
+}
+.services__card{
+    background: linear-gradient(326.06deg, #F0EBFF 11.53%, #FFFFFF 74.32%);
+    border-radius: 12px;
+    position: absolute;
+    top: -10px;
+    right: -85px;
+
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.78);
+    
+}
+.services__card-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 16px;
+text-align: center;
+padding-top: 16px;
+}
+.services__btn{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 10%;
+    color: #fff;
+
+    border-radius: 8px;
+    background: linear-gradient(326.06deg, #2641D1 11.53%, #3333A3 74.32%);
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.sirius{
+    background: #E5E5E5;
+}
+.sirius__title{
+    color: #34449C;
+    font-family: "Gotham Pro";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+}
+.sirius__text{
+    font-weight: 400;
+    font-family: 'Gotham Pro';
+    font-size: 12px;
+    line-height: 18px;
+    color: #404040;
+}
+.sirius__list{
+    margin-top: 24px;
+}
+.sirius__list-item{
+    list-style-image: url('../img/marker.svg');
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 16px;
+
+}
+.sirius__card{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.sirius__card-img{
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.sirius__card-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #404040;
+margin-left: 32px;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+.sirius__card-text{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+color: #404040;
+margin-left: 32px;
+}
+
+.tarif{
+    background: #E5E5E5;
+    padding-bottom: 80px;
+}
+.tarif__title{
+    font-family: 'Gotham Pro';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+margin-top: 72px;
+margin-bottom: 8px;
+}
+.tarif__subtitle{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+margin-bottom: 16px;
+}
+.tarif__btn-month{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #273895;
+
+border: none;
+outline: none;
+background: transparent;
+border-bottom: 1px dashed #2741CF;
+padding: 4px 30px;
+
+}
+
+.tarif__btn-year{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #273895;
+
+border: none;
+outline: none;
+background: transparent;
+border-bottom: 1px dashed #2741CF;
+padding: 4px 30px;
+}
+.click{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+background: #273895;
+border-radius: 10px;
+transition: background-color 1s linear;
+}
+.tarif__card{
+    background: #fff;
+    margin-top: 16px;
+    border-radius: 20px;
+    padding-bottom: 24px;
+}
+.tarif__card-title{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.15em;
+text-align: center;
+
+color: #2741D0;
+padding-top: 24px;
+}
+.tarif__card-subtitle{
+    font-family: 'Gotham Pro';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #C9C9C9;
+}
+.tarif__card-services{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #737373;
+}
+.tarif__card-list-title{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+margin-bottom: 16px;
+}
+.tarif__card-list-item{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.tarif__card-list-item{
+    list-style-image: url('../img/marker.svg');
+    margin-bottom: 8px;
+}
+.tarif__card-link{
+    margin-bottom: 16px;
+}
+.tarif__card-link-item{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #2741D0;
+text-decoration: none;
+}
+.tarif__card-btn{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+background: #273895;
+border-radius: 15px;
+border: none;
+outline: none;
+padding: 20px;
+}
+
+.not{
+    display: none;
+}
+.partners{
+    background: #E5E5E5;
+    padding-bottom: 16px;
+}
+.partners__item{
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: 16px;
+}
+.partners__img-two{
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    display: block;
+    background: transparent;
+}
+.partners-title{
+    font-family: 'Gotham Pro';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+margin-bottom: 16px;
+}
+.partners-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+}
+.partners__item-text{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+.partners__card{
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.partners__card-img{
+    margin: 16px 0;
+}
+.partners__card-title{
+    margin: 16px 0;
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+}
+.patners__card-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+}
+.partners__card-btn{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+background: #273895;
+border-radius: 15px;
+outline: none;
+border: none;
+padding: 15px 20px;
+
+margin-top: 16px;
+}
+.begin{
+    padding-top: 56px;
+    background: #E5E5E5;
+    padding-bottom: 64px;
+}
+.begin__title{
+    font-family: 'Gotham Pro';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+
+margin-bottom: 24px;
+}
+.begin__card{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.begin__card-img{
+    padding-top: 24px;
+}
+.begin__card-title{
+    padding-top: 22px;
+
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+margin-bottom: 16px;
+}
+.begin__card-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.begin__card-img-svg{
+    margin-top: 24px;
+}
+.begin__card-btn{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+border: none;
+border-radius: 15px;
+background: #273895;
+padding: 15px 20px;
+
+margin-bottom: 24px;
+
+cursor: pointer;
+}
+.programm{
+    background: #273895;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    z-index: 1;
+}
+.programm__title{
+    font-family: 'Gotham Pro';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+margin-bottom: 32px;
+}
+.programm__items{
+    display: flex;
+}
+.programm__items:first-child{
+    margin-bottom: 36px;
+}
+.programm__item-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: #fff;
+}
+.programm__item-title{
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(93.03deg, #4614E8 11.01%, #BCA7FF 78.81%);
+}
+.boss{
+    background: #E5E5E5;
+    padding-bottom: 108px;
+}
+
+.boss__suptitle{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+
+padding-top: 72px;
+}
+.boss__title{
+    font-family: 'Gotham Pro';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+}
+.boss__subtitle{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #404040;
+margin-bottom: 16px;
+}
+.boss__text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.boss__list{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.boss__text:last-child{
+    margin-bottom: 16px;
+}
+.boss__btn{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+background: #273895;
+border-radius: 15px;
+outline: none;
+border: none;
+
+padding: 15px 20px;
+
+margin-bottom: 32px;
+}
+.boss__item{
+    position: relative;
+}
+.quote__card{
+    background: #fff;
+    border-radius: 12px;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+}
+.quote__card-img{
+    padding-top: 16px;
+}
+.quote__card-text{
+    font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+color: #303030;
+padding: 0 16px 16px 16px;
+}
+.footer{
+    padding-top: 32px;
+    background: #E5E5E5;
+}
+.footer__top{
+    background: #E5E5E5;
+}
+.footer__top-logo{
+    margin-bottom: 23px;
+}
+.footer__body{
+    padding-bottom: 32px;
+}
+.footer__top-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+
+margin-bottom: 32px;
+}
+.footer__body-item{
+    padding: 10px 0;
+    border: 1px solid #CFDAE7;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.footer__body-item:last-child{
+    margin-right: 0;
+}
+.footer__bottom{
+    background: #E8EDF3;
+    padding-top: 32px;
+}
+.footer__bottom-text{
+    font-family: 'Gotham Pro';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #7A7A7A;
+text-decoration: none;
+margin-bottom: 8px;
+}
+.footer__bottom-text:last-child{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* ADAPTIVE */
+.adaptive__wrapper{
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}
+.header{
+    background: #E5E5E5;
+    padding-top: 56px;
+    padding-bottom: 48px;
+}
+.header__inner{
+    display: flex;
+}
+.header__items{
+    display: flex;
+}
+.header__text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+}
+.header__tel{
+text-decoration: none;
+font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: right;
+color: #303030;
+align-self: center;
+}
+.header__btn{
+font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+border: none;
+background: #273895;
+outline: none;
+padding: 16px 32px;
+border-radius: 15px;
+margin-left: 36px;
+}
+.header__link{
+    margin-right: 64px;
+    align-self: center;
+}
+.nav{
+    background: #E5E5E5;
+    padding-bottom: 120px;
+}
+.adaptive__list{
+    display: flex;
+}
+.adaptive__link:first-child{
+    margin-left: 0;
+}
+.adaptive__list-item{
+    list-style-type: none;
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #000000;
+}
+.adaptive__link{
+    text-decoration: none;
+    margin-left: 48px;
+}
+.adaptive__list-item:hover{
+    color: #273895;
+    transition: .5s ease;
+}
+.content{
+background: #E5E5E5;
+}
+.content__title{
+    font-family: 'Gotham Pro';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+color: #262626;
+margin-bottom: 16px;
+}
+.content__text{
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.content__btn{
+    border: none;
+    outline: none;
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+background: #273895;
+color: #fff;
+
+padding: 16px 32px;
+border-radius: 15px;
+}
+.content__inner{
+    display: flex;
+}
+.content__item-card{
+    display: flex;
+    background: #F4F7FA;
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+border-radius: 10px;
+}
+.content__item{
+    position: relative;
+}
+.content__item-card{
+    position: absolute;
+    bottom: -13%;
+    right: -17%;
+    padding: 30px 48px;
+}
+.content__item-card-text{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+}
+.content__item-card-img{
+    margin-bottom: 14px;
+}
+.team{
+    background: #E5E5E5;
+    padding-top: 218px;
+}
+.team__inner{
+    display: flex;
+    position: relative;
+    padding-bottom: 134px;
+}
+.team__logo{
+    margin-bottom: 32px;
+}
+.team__title{
+    font-family: 'Gotham Pro';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+margin-bottom: 16px;
+}
+.team__inner-items-one{
+    display: flex;
+}
+.team__inner-items-two{
+    display: flex;
+    transform: translate(-90%, 70%);
+    padding-bottom: 48px;
+}
+.team__card-one{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 10px;
+
+    padding: 32px;
+    height: 156px;
+    margin-right: 25px;
+    width: 217px;
+}
+.team__card-one-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 44px;
+
+color: transparent;
+background-clip: text;
+background-image: linear-gradient(#4614E8, #BCA7FF);
+-webkit-background-clip: text;
+}
+.team__card-one-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.team__card-two{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 10px;
+    height: 135px;
+    padding: 16px;
+    width: 189px;
+    transform: translateY(20%);
+}
+.team__card-two-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 44px;
+
+color: transparent;
+background-clip: text;
+background-image: linear-gradient(#4614E8, #BCA7FF);
+-webkit-background-clip: text;
+}
+.team__card-two-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.team__card-three{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 10px;
+    padding: 24px;
+    height: 135px;
+    margin-right: 25px;
+}
+.team__card-three-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 44px;
+
+color: transparent;
+background-clip: text;
+background-image: linear-gradient(#4614E8, #BCA7FF);
+-webkit-background-clip: text;
+}
+.team__card-three-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.team__card-four{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 10px;
+    padding: 32px;
+    height: 171px;
+    transform: translateY(10%);
+}
+.team__card-four-title{
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 44px;
+
+color: transparent;
+background-clip: text;
+background-image: linear-gradient(#4614E8, #BCA7FF);
+-webkit-background-clip: text;
+}
+.team__card-four-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.team__inner-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.adaptive__supports{
+    background: #E5E5E5;
+    padding-bottom: 141px;
+}
+.adaptive__supports-title{
+font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+margin-bottom: 31px;
+}
+.adaptive__supports-cards{
+    display: flex;
+}
+.adaptive__supports-card{
+    background: #fff;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+.adaptive__supports-card:last-child{
+    margin-right: 0;
+}
+.adaptive__supports-img{
+    margin-bottom: 16px;
+}
+.adaptive__supports-card-title{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+margin-bottom: 16px;
+}
+.adaptive__supports-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.services__adaptive{
+    background: #e5e5e5;
+}
+.services__adaptive-title{
+    font-family: 'Gotham Pro';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+margin-bottom: 48px;
+}
+.services__adaptive-content{
+    display: flex;
+}
+.services__bg{
+    background: #34449C;
+    height: 382px;
+    border-radius: 15px;
+}
+.services__content-img{
+    margin-top: 79px;
+    margin-bottom: 10px;
+}
+.services__text{
+    font-family: 'Artegra Sans Extended Alt';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    color: #fff;
+}
+.services__adaptive-card{
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.78);
+    position: absolute;
+    top: -13%;
+    right: -50%;
+    padding: 10px 19px;
+}
+.services__adaptive-card-title{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.services__adaptive-content-inner-one{
+    position: relative;
+}
+.services__adaptive-btn{
+    background: linear-gradient(326.06deg, #2641D1 11.53%, #3333A3 74.32%);
+    border-radius: 7.95745px;
+    border: none;
+    outline: none;
+
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+padding: 22px 15px;
+margin-bottom: 18px;
+}
+.services__adaptive-item{
+    list-style-image: url('../img/marker.svg');
+    margin-bottom: 24px;
+}
+.services__adaptive-content-inner{
+    margin-left: 96px;
+}
+.services__adaptive-content-inner-title{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0.17em;
+color: #34449C;
+}
+.services__adaptive-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.sirius__adaptive{
+    background: #e5e5e5;
+}
+.sirius__adaptive-cards{
+    display: flex;
+    margin: 0 25px;
+    transform: translate(0%, -32%);
+}
+.sirius__adaptive-card{
+    background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 20px;
+    padding: 32px 32px 0 32px;
+    
+    max-width: 236px;
+    width: 100%;
+    margin-right: 19px;
+}
+.sirius__adaptive-card:last-child{
+    margin-right: 0;
+}
+.sirius__adaptive-card-title{
+    font-family: 'Gotham Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+
+    margin-bottom: 16px;
+}
+.sirius__adaptive-card-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+}
+.sirius__adaptive-card-img{
+    margin-bottom: 16px;
+}
+.tarif__adaptive{
+    background: #e5e5e5;
+    padding-bottom: 144px;
+}
+.partners__adaptive{
+    background: #e5e5e5;
+    padding-bottom: 76px;
+    position: relative;
+}
+.partners__adaptive-img{
+    position: relative;
+}
+.partners__doc{
+    transform: translate(30%, -100%);
+}
+.partners__adaptive-text{
+    position: absolute;
+    top: 9%;
+    left: 20%;
+}
+.partners__adaptive-title{
+    font-family: 'Gotham Pro';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+margin-bottom: 16px;
+}
+.partners__adaptive-text-inner{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+}
+.partners__adaptive-card{
+    display: flex;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.partners__adaptive-card-title{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #404040;
+margin-bottom: 16px;
+}
+.partners__adaptive-card-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.partners__adaptive-card-img{
+    padding: 48px 0;
+    padding-left: 110px;
+}
+.partners__adaptive-card-inner{
+    padding: 48px 0;
+}
+.partners__adaptive-btn{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+border: none;
+background: #273895;
+outline: none;
+border-radius: 15px;
+
+margin-top: 31px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.begin__adaptive{
+    background: #e5e5e5;
+    padding-top: 144px;
+}
+.begin__adaptive-title{
+    font-family: 'Gotham Pro';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #303030;
+margin-bottom: 48px;
+}
+.begin__adaptive-img{
+    z-index: 0;
+}
+.begin__adaptive-card-img{
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-bottom: 16px;
+}
+.begin__adaptive-card-title{
+    padding-left: 32px;
+    margin-bottom: 16px;
+}
+.begin__adaptive-card-text{
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+.begin__adaptive-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+    border-radius: 20px;
+}
+.begin__adaptive-inner{
+    display: flex;
+    transform: translate(0%, -65%);
+    
+}
+.begin__adaptive-card-img{
+    display: block;
+}
+.begin__adaptive-btn{
+    font-family: 'Gotham Pro';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+border: none;
+outline: none;
+background: #273895;
+border-radius: 15px;
+
+padding: 20px 0;
+margin-bottom: 40px;
+}
+.begin__adaptive-inner-item{
+    margin-right: 16px;
+}
+.begin__adaptive-inner-item:last-child{
+    margin-right: 0;
+}
+.programm__adaptive{
+    background: #273895;
+    padding-bottom: 90px;
+}
+.programm__adaptive-title{
+    font-family: 'Gotham Pro';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+padding-top: 96px;
+}
+.programm__adaptive-inner-card{
+    padding-top: 96px;
+}
+.programm__adaptive-card-title{
+    margin-bottom: 16px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#4614E8, #BCA7FF);
+
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 150%;
+
+text-align: center;
+}
+.programm__adaptive-card-text{
+    font-family: 'Gotham Pro';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+}
+.boss__adaptive{
+    background: #e5e5e5;
+    padding-top: 144px;
+}
+.boss__adaptive-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.boss__adaptive-quote-items{
+    background: linear-gradient(331.41deg, #F0EBFF -4.05%, #FFFFFF 34.42%);
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+    border-radius: 11.9362px;
+    padding: 32px;
+    transform: translate(55%, -100%);
+}
+.boss__adaptive-quote-text{
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #303030;
+}
+.contact__adaptive{
+    background: #e5e5e5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.contact__adaptive-icon{
+    margin-right: 41px;
+    padding: 12px;
+    border: 1px solid #CFDAE7;
+    border-radius: 15px;
+}
+.contact__adaptive-inner{
+    display: flex;
+}
+.contact__adaptive-icon:last-child{
+    margin-right: 0;
+}
+.footer__adaptive{
+    background: #E8EDF3;
+}
+.footer__adaptive-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__adaptive-text{
+    padding: 16px 0;
+    font-family: 'Gotham Pro';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:#7A7A7A;
+}
+.footer__adaptive-text:last-child{
+    margin-left: 16px;
+}
+/* ADAPTIVE */
+@media (min-width: 1600px){
+    .sirius__adaptive-cards{
+        display: flex;
+        transform: translate(15%, -22%);
+    }
+}
+@media (min-width: 1440px) and (max-width: 1599px){
+    .sirius__adaptive-cards{
+        display: flex;
+        transform: translate(0%, -22%);
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .sirius__adaptive-cards{
+        display: flex;
+        transform: translate(0%, -12%);
+        margin: 0;
+    }
+}
+@media (min-width: 900px) and (max-width: 999px){
+    .sirius__adaptive-cards{
+        display: flex;
+        transform: translate(0%, -12%);
+    }
+}
+@media (max-width: 900px){
+    .header{
+        display: none;
+    }
+   .adaptive__wrapper{
+       display: none;
+   }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .team__inner-items-two{
+    transform: translate(-90%, 50%);
+    }
+}
+@media (min-width: 900px){
+    .header__mobile{
+        display: none;
+    }
+    .header{
+        display: block;
+    }
+    .bg{
+        display: none;
+    }
+    .adaptive__wrapper{
+        display: block;
+    }
+    .card{
+        display: none;
+    }
+    .personal{
+        display: none;
+    }
+    .supports{
+        display: none;
+    }
+    .services{
+        display: none;
+    }
+    .sirius{
+        display: none;
+    }
+    .tarif{
+        display: none;
+    }
+    .partners{
+        display: none;
+    }
+    .begin{
+        display: none;
+    }
+    .programm{
+        display: none;
+    }
+    .boss{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}
+@media(min-width: 900px) and (max-width: 990px){
+    .main__title{
+        line-height: 45px;
+    }
+    .header__tel{
+        font-size: 12px;
+    }
+    .header__link{
+        margin-right: 32px;
+    }
+    .header__btn{
+        padding: 8px 16px;
+    }
+    .header__text{
+        font-size: 10px;
+    }
+    .adaptive__link{
+        margin-left: 24px;
+    }
+    .adaptive__list:first-child{
+        margin-left: 0;
+    }
+    .content__title{
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .content__item-card{
+        position: absolute;
+        bottom: -45%;
+        right: -24%;
+    }
+}
+@media (min-width: 1200px){
+    .header__items{
+        margin-left: 406px;
+    }
+    .header__items:first-child{
+        margin-left: 0;
+    }
+    .content__item-card{
+        position: absolute;
+        bottom: -40%;
+        right: -40%;
+    }
+}
